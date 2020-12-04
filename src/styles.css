@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #acdbd0be;
+  padding-bottom: 20px;
+}
+
+#thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-self: center;
+  justify-content: space-around;
+  grid-gap: 10px;
+}
+
+.thumb {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+#bigimage {
+  object-fit: cover;
+  width: 90vw;
+  height: 50vh;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.green {
+  border: 5px solid darkcyan;
+}
